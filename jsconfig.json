@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Set the base URL for relative imports
+    "paths": {
+      "@/components/*": ["./src/components/*"],
+      "@/styles/*": ["./src/styles/*"],
+      "@/pages/*": ["./src/pages/*"],
+      "@/lib/*": ["./lib/*"],
+      "@/utils/*": ["./src/utils/*"],
+      "@/actions/*": ["./actions/*"]
+    }
+  }
+}
